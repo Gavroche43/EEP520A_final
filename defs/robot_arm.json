@@ -1,0 +1,19 @@
+{
+  "name": "RobotArm",
+  "type": "static",
+  "description": "A modular robot arm with a fixed base and two joints.",
+  "shape": [
+      { "x": -10, "y": -10 },
+      { "x": 10, "y": -10 },
+      { "x": 10, "y": 10 },
+      { "x": -10, "y": 10 }
+  ],
+  "mass": 100,
+  "friction": {
+      "collision": 0.5,
+      "linear": 0.5,
+      "rotational": 0.5
+  },
+  "sensors":[],
+  "controller": "lib/robot_arm.so"
+}

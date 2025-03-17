@@ -1,0 +1,15 @@
+{
+  "name": "node2",
+  "type": "dynamic",
+  "description": "Replace this string with a description",
+  "shape": "omni", 
+  "radius" : 3,
+  "friction": {
+    "collision": 5,
+    "linear": 40,
+    "rotational": 600
+  },
+  "sensors": [],
+  "mass": 1,    
+  "controller": "lib/node2.so"
+}
